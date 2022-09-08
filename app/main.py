@@ -100,7 +100,6 @@ application.include_router(Router.router)
 # 静态资源目录，注意如何设置
 application.mount('/', StaticFiles(directory=settings.STATIC_DIR), name="static")
 application.state.views = Jinja2Templates(directory=settings.TEMPLATE_DIR)
-print('这是资源目录')
 app = application
 
 
