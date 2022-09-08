@@ -1,7 +1,6 @@
 # -*-coding:UTF-8 -*-
 """
-<<<<<<< HEAD
-@Create_Time: 2022/9/8 10:36
+@Create_Time: 2022/9/8 10:42
 @Author:zhao
 @desc:fastapi
 """
@@ -13,4 +12,5 @@ print(
     "hello 热修分支"
     'hello 正常fox-fix合并分支'
     'hello 异常master合并分支'
+    'hello 异常fox-fix合并分支'
 )
