@@ -11,5 +11,5 @@ print(
     "hello 1"
     "hello 2"
     "hello 热修分支"
-
+    'hello 正常fox-fix合并分支'
 )
